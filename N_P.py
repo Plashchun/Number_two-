@@ -8,16 +8,13 @@
 n = int(input('Введіть число n: '))
 
 if n % 2 != 0:
-   print('Weird')
+    print('Weird')
 
-if n % 2 == 0:
-    if n > 2 or n < 5:
-       print('No Weird')
+if n % 2 == 0 and n <= 5:
+    print('No Weird')
 
-if n % 2 == 0:
-    if n > 6 or n > 20:
-        print('Weird')
+if n % 2 == 0 and n >6 <= 20:
+    print('Weird')
 
-if n % 2 != 0:
-    if n > 20:
-     print('NO Weird')
+if n % 2 != 0 and n > 20:
+    print('No Weird')
